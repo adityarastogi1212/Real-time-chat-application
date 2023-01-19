@@ -98,4 +98,4 @@ io.on('connection', (socket) => {
   });
 });
 
-// server.listen(realtimechatappns.netlify.app/, () => 'Server is running on port 4000');
+server.listen(realtimechatappns.netlify.app/);
