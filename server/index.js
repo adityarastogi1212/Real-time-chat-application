@@ -15,7 +15,7 @@ const server = http.createServer(app); // Add this
 // Create an io server and allow for CORS from http://localhost:3000 with GET and POST methods
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://realtimechatappn.netlify.app/',
     methods: ['GET', 'POST'],
   },
 });
@@ -98,4 +98,4 @@ io.on('connection', (socket) => {
   });
 });
 
-server.listen(4000, () => 'Server is running on port 4000');
+server.listen(https://realtimechatappns.netlify.app/, () => 'Server is running on port 4000');
